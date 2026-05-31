@@ -1,0 +1,8 @@
+CSS Folder:
+Contains Bootstrap styling files.
+
+JS Folder:
+Contains Bootstrap JavaScript plugins.
+
+Icons Folder:
+Contains Bootstrap icon files used in webpages.
