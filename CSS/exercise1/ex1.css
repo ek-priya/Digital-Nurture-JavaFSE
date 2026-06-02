@@ -1,0 +1,13 @@
+/* Header styles */
+#mainHeader {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+/* Event card styles */
+.eventCard {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+}

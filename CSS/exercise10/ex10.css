@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.eventContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.eventCard {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+img {
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+}

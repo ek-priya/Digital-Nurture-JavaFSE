@@ -1,0 +1,35 @@
+/* Background color with transparency */
+body {
+    background-color: rgba(240,240,240,0.9);
+
+    /* Background image */
+    background-image: url("background.jpg");
+
+    /* Cover entire page */
+    background-size: cover;
+
+    /* Prevent repetition */
+    background-repeat: no-repeat;
+
+    /* Keep image centered */
+    background-position: center;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Gradient header */
+.sectionHeader {
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Event cards */
+div {
+    background-color: rgba(255,255,255,0.8);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
